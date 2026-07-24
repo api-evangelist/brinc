@@ -1,0 +1,12 @@
+Contact: mailto:security@brincdrones.com
+Expires: 2027-05-18
+
+Encryption: https://brincdrones.com/.well-known/brinc_security_public.asc
+
+Policy: https://brincdrones.com/privacy-policy/
+
+Hiring: https://brincdrones.com/work-at-brinc/
+
+Preferred-Languages: en, sv
+
+Canonical: https://brincdrones.com/.well-known/security.txt

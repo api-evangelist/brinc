@@ -1,8 +1,27 @@
 aid: brinc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brinc.png
 name: BRINC
-description: 'BRINC is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  BRINC builds a connected ecosystem of drones, software, and services purpose-built for public
+  safety in the United States. Its Drone as First Responder (DFR) systems — the Guardian and
+  Responder outdoor drones, the Lemur 2 indoor tactical drone, and the throwable BRINC Ball — pair
+  with LiveOps teleoperations software (livestreaming, two-way comms, evidence management) to put a
+  camera overhead within seconds of a 911 call. BRINC reports deployments across 900+ public safety
+  agencies in all 50 states, sub-70-second average drone arrival times, and a recent $125M funding
+  round. The company also runs its Safeguard upgrade-and-repair program and grant/DFR playbook
+  services. BRINC exposes no public developer API, SDK, or MCP surface as of this profile; this entry
+  is enriched from the company's public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/brinc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Drones
+- Public Safety
+- Law Enforcement
+- Emergency Response
+- Drone as First Responder
+- Hardware
+- Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://brincdrones.com
+  url: https://brincdrones.com
+- type: Blog
+  url: https://brincdrones.com/all-news/
+- type: PrivacyPolicy
+  url: https://brincdrones.com/privacy-policy/
+- type: SecurityTxt
+  url: well-known/brinc-security.txt
+- type: WellKnown
+  url: well-known/brinc-well-known.yml
+- type: Security
+  url: well-known/brinc-security.txt
+- type: VulnerabilityDisclosure
+  url: security/brinc-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/brinc-domain-security.yml
+- type: LLMsTxt
+  url: llms/brinc-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
